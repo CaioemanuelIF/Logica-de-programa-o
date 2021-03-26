@@ -1,0 +1,13 @@
+
+	funcao inicio()
+	{
+	inteiro num, res, cont
+		escreva("Digite um número para multiplicar : ")
+        	leia(num)
+        
+        	limpa()
+
+          para (cont = 1; cont <= 10; cont++) 
+		
+			{res = num * cont
+			escreva ( num, " X ", cont, " = ", res , "\n")}
