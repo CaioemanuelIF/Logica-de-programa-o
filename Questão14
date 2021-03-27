@@ -1,0 +1,21 @@
+	programa
+{
+
+real n1,n2,n3,n4,media
+	funcao inicio()
+	{
+		escreva("Digite um numero:")
+		leia(n1)
+		escreva("Digite um numero:")
+		leia(n2)
+		escreva("Digite um numero:")
+		leia(n3)
+		escreva("Digite um numero:")
+		leia(n4)
+
+		media=(n1+n2+n3+n4/10)
+
+		escreva("\nSua média é :", media)
+
+	}
+}
