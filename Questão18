@@ -1,0 +1,16 @@
+programa
+{
+
+real margem, custo, venda
+    funcao inicio()
+    {
+        escreva("Digite o custo do produto : ")
+        leia(custo)
+        escreva("A margem de aumento % do produto é : ")
+        leia(margem)
+
+        margem = custo* margem/100
+        venda= custo+margem
+        escreva("O valor de final é : ", venda)
+    }
+}
