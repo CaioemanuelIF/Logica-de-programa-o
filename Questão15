@@ -1,0 +1,18 @@
+programa
+{
+	
+inteiro qntdparcela
+	real  valor, valordrone
+	funcao inicio()
+	{
+		valordrone = 8190.0
+		escreva("Quantas parcelas você gostaria de pagar ? :")
+		leia(qntdparcela)
+
+		valor= valordrone/qntdparcela
+
+		escreva("valor do drone: R$", valordrone,
+		"\nQuantidade de parcelas : ",qntdparcela," vezes de:","R$", valor)
+		
+	}
+}
